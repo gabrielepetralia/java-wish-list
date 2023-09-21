@@ -6,7 +6,7 @@ public class ElencoInteri {
     
     // Costruttori
     public ElencoInteri(int[] array) {
-        this.array = array;
+        setArray(array);
         setCurrIndex(-1);
     }
     
